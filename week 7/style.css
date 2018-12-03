@@ -1,0 +1,24 @@
+.nav{
+  position:fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  display:flex;
+  justify-content: space-around;
+  background-color: #fafafa;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  background-color: /////
+}
+.nav a{
+  color: #fdfdfd;
+  text-decoration: none;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+.page{
+  min-width: 100vw;
+  min-height: 100vh;
+  text-decoration-color: black;
+}

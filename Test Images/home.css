@@ -1,0 +1,54 @@
+.home{
+  background-image: url(image-test/hand.jpg);
+  margin: 0;
+  width: 100 vw;
+  height: 100 vh;
+  background-size: cover;
+  background-position: 10% 20%;
+  background-color: red;
+  background-repeat: no-repeat;
+}
+
+body{
+  margin: 0;
+}
+
+html{
+  margin: 0;
+}
+
+.image1{
+  background-image: url(image-test/warmtowel.jpg);
+  padding: 6em;
+  margin: 16px auto;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: blue;
+}
+
+.image2{
+  background-image: url(image-test/cooltowel.jpg);
+  padding: 6em;
+  margin: 16px auto;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: thistle;
+}
+
+.image3 {
+  background-image: url(image-test/gold1.jpg);
+  padding: 6em;
+  margin: 16px auto;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: mediumspringgreen;
+}

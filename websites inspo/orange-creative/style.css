@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fafafa;
+  color: #fdfdfd;
+  margin:0;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  border-bottom: 4px #fafafa solid;
+}
+
+.nav a {
+  color: #fdfdfd;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+.nav a:hover {
+  text-decoration: line-through;
+  text-decoration-color:thistle;
+}
+
+
+div {
+  margin: 0;
+}
+
+#home {
+  background-image: url("https://scontent-lax3-1.cdninstagram.com/vp/2bc6a240f9581af7106920e31d1b7504/5C6753AC/t51.2885-15/e35/39256775_531413820633446_6559063021233111040_n.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 64px;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+#home .hero-text-container{
+  padding-top: 128px;
+  padding-bottom: 128px;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 8em;
+}
+
+#about {
+  background-color: mediumpurple;
+  padding-top: 64px;
+  min-width: 100vw;
+  min-height: 100vh;
+
+}
+#about h1{
+  font-size:11px
+}
+.projects-container {
+  display:flex;
+  padding-top: 128px;
+  justify-content: space-around;
+
+}
+#projects{
+  background: linear-gradient(rosybrown, darkslategray, palevioletred);
+  min-width: 100vw;
+  min-height: 100vh;
+}
+#contact {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: rosybrown;
+}
+.project[
+width: 500px;
+height: 300px;
+background-size: cover;
+background-postion:center;
+margin:16px;
+]
+
+.page {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+a {
+  font-size: 2em;
+}
+
+#home .slideshow-image{
+  width: 200px;
+  height: 200px;
+  background-color: mediumspringgreen;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+#home .slideshow-viewer{
+  position: fixed;
+  width: 80vw;
+  height: 80vh;
+  top: 10vh;
+  left: 10vw;
+  background-position: center;
+  background-size: cover;
+
+}
+#home .slideshow-overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.5;
+}
+#image-1{
+  background-image: url(/images/candles.jpg);
+}
